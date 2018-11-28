@@ -4,7 +4,7 @@
 }
 
 header h1 {
-  color
+  color: red;
 }
 
 .nav-pills>li.active>a {

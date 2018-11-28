@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
 	<div class="container">
@@ -17,15 +18,40 @@
 	   		</div>
 	      	<nav class="col-xs-12 col-sm-7 col-md-6">
 	        	<ul class="nav nav-pills pull-right">
-	          	<li role="presentation" class="active"><a href="#">[Home]</a></li>
+	          	<li role="presentation"><a href="#">Home</a></li>
 	            <li role="presentation"><a href="#">Products</a></li>
-	           	<li role="presentation"><a href="#">Contact Us</a></li>
-	           </ul>
+	           	<li role="presentation" class="active"><a href="#">[Contact Us]</a></li>
+	          </ul>
 	        </nav>
 	  </header>
 	</div>
 
-(.container.content>.row(.col-sm-12.col-md-6>.row(.col-xs-6.col-sm-4>img.img-responsive[src=img/doctor1.jpg])+(.col-xs-6.col-sm-4>h3{Dr. Joe Smith})+(.col-xs-12.col-sm-4>p{lorem25}))*2)
+<div class="container content">
+	<div class="row">
+		<div class="col-sm-12 col-md-6">
+			<div class="row">
+				<div class="col-xs-6 col-sm-4"><img src="img/doctor1.jpg" alt="" class="img-responsive"></div>
+				<div class="col-xs-6 col-sm-8">
+					<h3>Dr. Joe Smith</h3>
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, illum ea. Minima autem nemo, atque aperiam illum nulla aut quos, at vitae aliquam, nam. Laboriosam.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-sm-4">
+					<img src="img/doctor2.jpg" alt="" class="img-responsive">
+				</div>
+				<div class="col-xs-6 col-sm-8">
+					<h3>Dr. Jane Smith</h3>
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ut dolor cupiditate in, natus eum est molestiae? Illum ab, omnis ratione quasi eligendi ipsa esse.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
   <!-- FOOTER section -->
   	<footer class="container-fluid">
